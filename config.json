@@ -1,0 +1,35 @@
+{
+  "output_file": "filtered_public.csv",
+  "filters": [
+    {
+      "type": "include",
+      "column": "district",
+      "values": ["Central & Western", "Southern", "Wan Chai"]
+    },
+    {
+      "type": "exclude",
+      "column": "school_type_1",
+      "values": ["Private", "DSS"]
+    },
+    {
+      "type": "exclude",
+      "column": "student_gender",
+      "values": ["Boys"]
+    },
+    {
+        "type": "exclude",
+        "column": "poa_school_net",
+        "values": ["/"]
+    },
+    {
+        "type": "exclude",
+        "column": "school_name",
+        "values": ["Kiangsu & Chekiang Primary School", "Hon Wah College (Primary Section)"]
+    },
+    {
+      "type": "gt",
+      "column": "current_year_no_of_class_total",
+      "value": 10
+    }
+  ]
+}

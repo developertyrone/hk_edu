@@ -1,0 +1,15 @@
+{
+  "output_file": "filtered_private.csv",
+  "filters": [
+    {
+      "type": "include",
+      "column": "district",
+      "values": ["Central & Western", "Southern", "Wan Chai", "Eastern"]
+    },
+    {
+      "type": "exclude",
+      "column": "student_gender",
+      "values": ["Boys"]
+    }
+  ]
+}

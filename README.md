@@ -1,1 +1,10 @@
 # hk_edu
+
+master_education_likelihood
+previous_year_tsi_total_no_of_teachers * (previous_year_tsi_percent_of_received_teacher_training/100) * ( previous_year_tsi_percent_of_master_doctorate_or_above/100) / current_year_no_of_class_total
+
+bachelor_education_likelihood
+(previous_year_tsi_total_no_of_teachers * (previous_year_tsi_percent_of_received_teacher_training/100) * (previous_year_tsi_percent_of_bacherlor/100)) / current_year_no_of_class_total
+
+techer_ratio
+previous_year_tsi_total_no_of_teachers * (previous_year_tsi_percent_of_received_teacher_training/100) current_year_no_of_class_total
